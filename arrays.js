@@ -124,5 +124,39 @@ const arr=[5,9,8,7,5,8,6,4,8,5,65,56,58,2,10,45,78]
 // console.log(Array.of(1,5,100,8,8,8,8,5,5,5,8,8,8,8,96))
 
 // Array.isArray() – Checks if value is array
-console.log(Array.isArray([4,8,7,87,7,54,8,5,88,8,85,8,85,85,58,85,58,58,58,5]))
-// console.log(Array.isArray("hello"))
+// console.log(Array.isArray([4,8,7,87,7,54,8,5,88,8,85,8,85,85,58,85,58,58,58,5]))
+// console.log(Array.isArray(arr))
+
+
+// Access
+
+
+// at() – Gets element using index (supports negative)
+// console.log(arr.at(-3))
+
+// Fill / Copy
+
+
+// fill() – Fills array with static value
+//  fill(value, start, end)
+
+//  Fills array with a value from start → end (not included)
+// value → what to fill
+// start → start index (default = 0)
+// end → end index (not included)
+// arr.fill(1000,1,10)
+// console.log(arr)
+
+
+// copyWithin() – Copies part of array inside itself
+// copyWithin(target, start, end)
+
+//  Copies part of array and pastes it inside same array
+
+// target → index to paste
+// start → index to copy from
+// end → stop (not included)
+
+// const a=["fd","gfre",'frew',"gfgre",85985,52,"hkmjhgg",'jhgfd']
+// a.copyWithin(4,5)
+// console.log(a)
