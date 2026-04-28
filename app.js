@@ -197,5 +197,3 @@ if (i<10) {
 
 // Promise.all([A,B,C])
 // .then(a=>console.log(a));
-
-

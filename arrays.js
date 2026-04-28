@@ -48,6 +48,7 @@ const arr=[5,9,8,7,5,8,6,4,8,5,65,56,58,2,10,45,78]
 // Loop / Transform
 // arr.forEach(x=>console.log(x))
 
+
 // map() – Returns new array after transformation
 // const y = arr.map(x=>x*2)
 // console.log(y)
