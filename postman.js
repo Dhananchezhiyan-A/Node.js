@@ -85,6 +85,13 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify({ message: "Data Deleted" }));
   }
 
+  //  DELETE
+   else if (method === 'DELETE') {
+    data = {};
+    res.writeHead(200);
+    res.end(JSON.stringify({ message: "Data Deleted" }));
+  }
+
   //  Method Not Allowed
   else {
     res.writeHead(405);
